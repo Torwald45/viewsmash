@@ -74,11 +74,11 @@ export default function Home() {
       {/* Navbar */}
       <nav className="sticky top-0 z-50 backdrop-blur bg-[#0a0a1a]/80 border-b border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <a href="#start" className="text-xl font-bold tracking-tight">
+          <a href="/" className="text-xl font-bold tracking-tight">
             ViewSmash
           </a>
           <div className="hidden md:flex items-center gap-8">
-            <a href="#start" className="text-sm text-gray-400 hover:text-white transition">
+            <a href="/" className="text-sm text-gray-400 hover:text-white transition">
               Start
             </a>
             <a href="#what-we-build" className="text-sm text-gray-400 hover:text-white transition">
@@ -104,7 +104,7 @@ export default function Home() {
         </div>
         {menuOpen && (
           <div className="md:hidden border-t border-gray-800 px-6 py-4 flex flex-col gap-4">
-            <a href="#start" onClick={() => setMenuOpen(false)} className="text-sm text-gray-400 hover:text-white transition">
+            <a href="/" onClick={() => setMenuOpen(false)} className="text-sm text-gray-400 hover:text-white transition">
               Start
             </a>
             <a href="#what-we-build" onClick={() => setMenuOpen(false)} className="text-sm text-gray-400 hover:text-white transition">
@@ -241,7 +241,7 @@ export default function Home() {
             &copy; {new Date().getFullYear()} ViewSmash. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <a href="#start" className="text-sm text-gray-500 hover:text-white transition">
+            <a href="/" className="text-sm text-gray-500 hover:text-white transition">
               Start
             </a>
             <a href="#what-we-build" className="text-sm text-gray-500 hover:text-white transition">
