@@ -1,0 +1,5 @@
+# ViewSmash
+> Open source web development, APIs and integrations.
+
+## Main pages
+- [Home](https://viewsmash.com/): Landing page - services, process, contact

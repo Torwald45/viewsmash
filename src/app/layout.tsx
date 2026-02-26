@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ViewSmash — Open Source Web Development, APIs & Integrations",
+  title: "ViewSmash - Open Source Web Development, APIs & Integrations",
   description:
-    "⚡ We build fast, scalable web apps, APIs, and self-hosted solutions that put you in full control of your stack. Open source first — from bold MVPs to production-ready systems.",
+    "⚡ We build fast, scalable web apps, APIs, and self-hosted solutions that put you in full control of your stack. Open source first - from bold MVPs to production-ready systems.",
   openGraph: {
-    title: "ViewSmash — Open Source Web Development, APIs & Integrations",
+    title: "ViewSmash - Open Source Web Development, APIs & Integrations",
     description:
-      "We build fast, scalable web apps, APIs, and self-hosted solutions that put you in full control of your stack. Open source first — from bold MVPs to production-ready systems.",
+      "We build fast, scalable web apps, APIs, and self-hosted solutions that put you in full control of your stack. Open source first - from bold MVPs to production-ready systems.",
     url: "https://viewsmash.com",
     siteName: "ViewSmash",
     locale: "en_US",
@@ -29,13 +29,16 @@ export const metadata: Metadata = {
         url: "https://viewsmash.com/og-image.png",
         width: 1200,
         height: 630,
-        alt: "ViewSmash — Open Source Web Development",
+        alt: "ViewSmash - Open Source Web Development",
       },
     ],
   },
+  alternates: {
+    canonical: "https://viewsmash.com",
+  },
   twitter: {
     card: "summary_large_image",
-    title: "ViewSmash — Open Source Web Development, APIs & Integrations",
+    title: "ViewSmash - Open Source Web Development, APIs & Integrations",
     description:
       "We build fast, scalable web apps, APIs, and self-hosted solutions that put you in full control of your stack.",
   },
