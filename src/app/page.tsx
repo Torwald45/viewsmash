@@ -69,7 +69,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="sticky top-0 z-50 backdrop-blur bg-[#0a0a1a]/80 border-b border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <a href="/" className="text-xl font-bold tracking-tight">ViewSmash</a>
+          <a href="/" className="flex items-center gap-2 text-xl font-bold tracking-tight"><svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="5" width="90" height="90" rx="18" ry="18" fill="#0a0a1a" stroke="#FFD700" strokeWidth="4"/><text x="50" y="55" textAnchor="middle" dominantBaseline="middle" fill="#FFD700" fontFamily="monospace" fontWeight="bold" fontSize="38">VS</text></svg>ViewSmash</a>
           <div className="hidden md:flex items-center gap-8">
             <a href="/" className="text-sm text-gray-400 hover:text-white transition">Start</a>
             <a href="#what-we-build" className="text-sm text-gray-400 hover:text-white transition">What We Build</a>
