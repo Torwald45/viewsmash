@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import WaveAnimation from "@/components/WaveAnimation";
+import ToolsSlider from "@/components/ToolsSlider";
 export default function Home() {
   const [showTop, setShowTop] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -90,7 +91,7 @@ export default function Home() {
         )}
       </nav>
       {/* Hero */}
-      <section id="start" className="max-w-6xl mx-auto px-6 py-16 md:py-32 flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+      <section id="start" className="max-w-6xl mx-auto px-6 py-16 md:py-24 pb-8 md:pb-12 flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">Open source web development, APIs &amp; integrations</h1>
           <p className="mt-6 text-lg text-gray-400 max-w-2xl">We build modern, scalable solutions using open source technologies. From custom web apps to self-hosted infrastructure — we help businesses take full control of their digital stack.</p>
@@ -100,6 +101,7 @@ export default function Home() {
           <WaveAnimation />
         </div>
       </section>
+      <ToolsSlider />
       {/* What We Build */}
       <section id="what-we-build" className="max-w-6xl mx-auto px-6 py-20">
         <h2 className="text-3xl md:text-4xl font-bold text-center">What We Build</h2>
