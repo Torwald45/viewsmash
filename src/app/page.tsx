@@ -72,24 +72,25 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2 text-xl font-bold tracking-tight"><svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="5" width="90" height="90" rx="18" ry="18" fill="#0a0a1a" stroke="#FFD700" strokeWidth="4"/><text x="50" y="55" textAnchor="middle" dominantBaseline="middle" fill="#FFD700" fontFamily="monospace" fontWeight="bold" fontSize="38">VS</text></svg>ViewSmash</a>
           <div className="hidden md:flex items-center gap-8">
-            <a href="/" className="text-sm text-gray-400 hover:text-white transition">Start</a>
-            <a href="#what-we-build" className="text-sm text-gray-400 hover:text-white transition">What We Build</a>
-            <a href="#how-we-work" className="text-sm text-gray-400 hover:text-white transition">How We Work</a>
+            <a href="/" className="text-sm text-gray-300 hover:text-white transition">Start</a>
+            <a href="#what-we-build" className="text-sm text-gray-300 hover:text-white transition">What We Build</a>
+            <a href="#how-we-work" className="text-sm text-gray-300 hover:text-white transition">How We Work</a>
             <a href="#contact" className="text-sm bg-[#00d4ff] text-[#0a0a1a] px-4 py-2 rounded-lg font-semibold hover:bg-[#00bfe0] transition">Get in Touch</a>
           </div>
-          <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden flex items-center gap-2 border border-gray-700 rounded-lg px-3 py-2 text-sm text-gray-400 hover:text-white transition">
+          <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden flex items-center gap-2 border border-gray-700 rounded-lg px-3 py-2 text-sm text-gray-300 hover:text-white transition">
             <span className="text-lg leading-none">☰</span>Menu
           </button>
         </div>
         {menuOpen && (
           <div className="md:hidden border-t border-gray-800 px-6 py-4 flex flex-col gap-4">
-            <a href="/" onClick={() => setMenuOpen(false)} className="text-sm text-gray-400 hover:text-white transition">Start</a>
-            <a href="#what-we-build" onClick={() => setMenuOpen(false)} className="text-sm text-gray-400 hover:text-white transition">What We Build</a>
-            <a href="#how-we-work" onClick={() => setMenuOpen(false)} className="text-sm text-gray-400 hover:text-white transition">How We Work</a>
+            <a href="/" onClick={() => setMenuOpen(false)} className="text-sm text-gray-300 hover:text-white transition">Start</a>
+            <a href="#what-we-build" onClick={() => setMenuOpen(false)} className="text-sm text-gray-300 hover:text-white transition">What We Build</a>
+            <a href="#how-we-work" onClick={() => setMenuOpen(false)} className="text-sm text-gray-300 hover:text-white transition">How We Work</a>
             <a href="#contact" onClick={() => setMenuOpen(false)} className="text-sm bg-[#00d4ff] text-[#0a0a1a] px-4 py-2 rounded-lg font-semibold hover:bg-[#00bfe0] transition text-center">Get in Touch</a>
           </div>
         )}
       </nav>
+      <main>
       {/* Hero */}
       <section id="start" className="max-w-6xl mx-auto px-6 py-16 md:py-24 pb-8 md:pb-12 flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
         <div className="max-w-3xl">
@@ -138,15 +139,16 @@ export default function Home() {
           <a href="mailto:hello@viewsmash.com" className="text-[#00d4ff] hover:text-[#00bfe0] text-lg font-semibold transition">hello@viewsmash.com</a>
         </div>
       </section>
+      </main>
       {/* Footer */}
       <footer className="border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-gray-500">&copy; {new Date().getFullYear()} ViewSmash. All rights reserved.</p>
+          <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} ViewSmash. All rights reserved.</p>
           <div className="flex items-center gap-6">
-            <a href="/" className="text-sm text-gray-500 hover:text-white transition">Start</a>
-            <a href="#what-we-build" className="text-sm text-gray-500 hover:text-white transition">What We Build</a>
-            <a href="#how-we-work" className="text-sm text-gray-500 hover:text-white transition">How We Work</a>
-            <a href="#contact" className="text-sm text-gray-500 hover:text-white transition">Get in Touch</a>
+            <a href="/" className="text-sm text-gray-400 hover:text-white transition">Start</a>
+            <a href="#what-we-build" className="text-sm text-gray-400 hover:text-white transition">What We Build</a>
+            <a href="#how-we-work" className="text-sm text-gray-400 hover:text-white transition">How We Work</a>
+            <a href="#contact" className="text-sm text-gray-400 hover:text-white transition">Get in Touch</a>
           </div>
         </div>
       </footer>
